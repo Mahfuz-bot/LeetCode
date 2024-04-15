@@ -13,7 +13,6 @@ public class Palindrome {
             if(num.charAt(i) != num.charAt(num.length()-1-i)){
                 return false;
             }
-
         }
         return true;
     }
