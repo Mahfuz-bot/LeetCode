@@ -1,13 +1,12 @@
 public class RmvDupSortedArray {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{0,0,1,1,2,2,3,4,4};
+        int[] nums = new int[]{0,1,2,2,2,3,4,4};
         int k =removeDuplicates(nums);
         System.out.println("k = " + k);
         for (int i = 0; i < k; i++) {
             System.out.print(nums[i]+" ");
         }
-
     }
 
     private static int removeDuplicates(int[] nums) {
