@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class AddBinary {
     public static String addBinary(String a, String b){
         StringBuilder result = new StringBuilder();
